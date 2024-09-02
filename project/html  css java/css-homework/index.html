@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>스타트업 랜딩 페이지</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div class ="wrap">
+    <herder class="herder">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><button type="button" class="nav-button">홈</button></li>
+          <li><button type="button" class="nav-button">특징</button></li>
+          <li><button type="button" class="nav-button">가격</button></li>
+          <li><button type="button" class="nav-button">문의</button></li>
+        </ul>
+      </nav>
+    </herder>
+    </div>
+    <main class="main1">
+      <!-- 특징 -->
+       <section id="home" class="section home-section">
+      <h1 class="main-title">혁신적인 스타트업 솔루션</h1>
+      <p class="main-description">당신의 비즈니스를 다음 단계로 이끌어줄 최고의 선택</p>
+      <button type="button" class="cta-button">지금 시작하기</button>
+    </section>
+
+    <section id="features" class= section features-section>
+      <h2 class="section-title">주요 특징</h2>
+      <ul class="features-list">
+        <li class="feature-item">
+            <h3 class="feature-title">빠른 구현</h3>
+            <p class="feature-description">몇 번의 클릭만으로 서비스 구축 가능</p>
+        <li class="feature-item">
+            <h3 class="section-title">확장성</h3>
+        <p class="feature-description">비즈니스 성장에 마춰 쉽게 확장</p></li>
+        <li class="feature-item">
+            <h3 class="section-title">24/7 지원</h3>
+        <p class="feature-description">언제든 필요할 때 전문가의 도움을 받으세요</p></li>
+      </ul>
+    </section>
+    <section id="pricing" class= section pricing-section>
+      <!-- 가격 -->
+      <h2 class="section-title">요금제</h2>
+      <div class="pricing-plans">
+        <div class="plan">
+      <h3 class="plan-title">기본</h3>
+      <p class="plan-price">￦10,000/월</p>
+      <ul class="plan-features">
+        <li class="plan-feature-item">기본 기능</li>
+        <li class="plan-feature-item">이메일 지원</li>
+      </ul>
+      <button type="button" class="cta-button">선택하기</button>
+    </div>
+    <div class="plan">
+      <h3 class="plan-title">프로</h3>
+      <p class="plan-price">￦30,000/월</p>
+      <ul class="plan-features">
+        <li class="plan-feature-item">모든 기본 기능</li>
+        <li class="plan-feature-item">고급 분석</li>
+        <li class="plan-feature-item">우선 지원</li>
+      </ul>
+      <button type="button" class="cta-button">선택하기</button>
+      </div>
+    </section>
+    <section id="contact" class= section contact-section>
+      <!-- 문의 -->
+      <h2 class="section-title">문의하기</h2>
+      <form class="contact-form" action="submit-form" method="post">
+        <label class="form-label" for="name">이름</label>
+        <input class="form-input" type="text" id="name" required></input>
+
+        <label class="form-label" for="email">이메일</label>
+        <input class="form-input" type="email" id="email" name="email" required></input>
+
+        <label class="form-label" for="message">메세지</label>
+        <textarea class="form-textarea" id="message" name="message" required></textarea>
+
+        <botton type="submit" class="cta-button submit-button">보내기</botton>
+      <footer class="footer">
+      <p class="copyright">© 2024 스타트업 솔루션. All rights reserved.</p>
+      <ul class="footer-links">
+        <li>
+            <a href="#" class="footer-link">개인정보 처리방침</a>
+        </li>
+        <li>
+            <a href="#" class="footer-link">이용약관</a>
+        </li>
+      </ul>
+      
+    </main>
+</footer>
+  </body>
+</html>
