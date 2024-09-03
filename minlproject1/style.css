@@ -8,7 +8,7 @@
 }
 
 .carousel img {
-  height:400px;
+  height: 400px;
 }
 
 .a3 {
@@ -16,5 +16,21 @@
 }
 
 .a4 {
-  margin-top: 20 ;
+  margin-top: 20;
+}
+
+.a6 {
+  margin: 100px 100xp 100xp 100px auto;
+  background-color: black;
+  color: #E0F7FA
+}
+
+.a7 {
+  text-align: justify
+}
+
+.a5 {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
 }
